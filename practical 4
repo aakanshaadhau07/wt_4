@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frames Example</title>
+</head>
+
+<frameset rows="30%,70%">
+    <frame src="top.html">
+    
+    <frameset cols="30%,70%">
+        <frame src="menu.html">
+        <frame src="content.html">
+    </frameset>
+
+</frameset>
+
+</html>
+
+Second file name :- top.html(frame1)
+<html>
+<body bgcolor="lightblue">
+<h1 align="center"> frame1</h1>
+<h2 align="center">My Website Header</h2>
+</body>
+</html>
+
+Third file name:- menu.html(frame2)
+<html>
+<body bgcolor="lightgray">
+<h1 align="center"> frame2</h1>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Services</li>
+<li>Contact</li>
+</ul>
+</body>
+</html>
+
+Fourth file name:-content.html(frame3)
+<html>
+<body>
+<h1 align="center"> frame3</h1>
+<h3>Welcome to the Website</h3>
+<p>This is the main content section.</p>
+</body>
+</html>
+
